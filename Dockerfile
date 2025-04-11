@@ -1,5 +1,5 @@
 # Use Tomcat 11 with Java 21 (Temurin)
-FROM tomcat:11.0.0-M24-jdk21-temurin-noble
+FROM tomcat:11.0.0-M24-jdk22-temurin
 
 # Optional: Limit memory usage
 ENV JAVA_OPTS="-Xmx300m"
